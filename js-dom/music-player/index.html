@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="music-player">
+
+            <nav>
+
+                <div class="music-box1 mus">
+                    <i class="ri-arrow-left-s-line"></i>
+
+                </div>
+
+                <div class="music-box2 mus">
+                    <i class="ri-menu-line "></i>
+                </div>
+
+            </nav>
+
+
+            <div class="music-player-img">
+                <img src="https://i.pinimg.com/736x/b8/3e/a5/b83ea5dce7bb0b031c40748214803dae.jpg" alt="">
+
+            </div>
+
+            <h1>Feather</h1>
+            <p>Sabrina Carpenter</p>
+
+            <audio  id="song">
+                <source src="Sabrina_Carpenter_-_Feather__Lyrics_(128k).mp3" type="audio/mp3">
+            </audio>
+
+            <input type="range" value="0" id="progress">
+
+            <div class="controls">
+                <div><i class="ri-rewind-fill"></i></div>
+                <div onclick="playPause()"><i class="ri-play-large-fill " id="play-btn"></i></div>
+                <div><i class="ri-speed-fill"></i></div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

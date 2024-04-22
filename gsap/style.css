@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.main-box {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: plum; */
+  position: relative;
+  font-family: Sprint Sans Regular;
+}
+
+.nav {
+  height: 10%;
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.nav-1 {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  /* background-color: slateblue; */
+}
+
+.nav-1 > h1 {
+  /* background-color: lavenderblush; */
+  padding-right: 8px;
+  padding-left: 8px;
+  border: 1.5px solid black;
+  border-radius: 8vh;
+  font-size: 4vh;
+}
+
+.nav-1 > i {
+  padding: 4px 12px;
+  border-radius: 2.5vh;
+  /* background-color: plum; */
+  border: 1.5px solid black;
+}
+
+.nav-3 {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  align-items: center;
+}
+
+.nav-3 > button {
+  padding: 1vh 2vh;
+  font-size: 2vh;
+  border-radius: 3vh 3vh;
+  font-weight: 700;
+}
+#btn2 {
+  background-color: orangered;
+  color: white;
+  border: none;
+}
+
+.nav-2 {
+  text-transform: uppercase;
+}
+
+.main-box > h1 {
+  font-size: 120px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 40%;
+  translate: (-50%, -50%);
+  white-space: nowrap;
+}
+
+.main-box > img {
+  height: 370px;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(0);
+  border-radius: 15px;
+  transition: ease-in-out;
+}
+
+#image-1 {
+  transform: translate(-50%, -50%) rotate(0);
+}
+#image-2 {
+  transform: translate(-50%, -50%) rotate(-20deg);
+  transition: ease-in-out;
+}
+
+#image-3 {
+  transform: translate(-50%, -50%) rotate(-10deg);
+}
+
+
+
+/* .nav {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.new {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+  height: 100%;
+  align-items: center;
+}
+
+i {
+  font-size: 40px;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transition: transform(-50%, 0);
+}
+
+.image-box {
+  height: 90%;
+  width: 100%;
+  background-color: plum;
+  background-image: url(https://i.pinimg.com/originals/6a/62/20/6a6220cf08d104335ab53dd59c7dce62.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+} */
+
+/* ////////////////////////////////////////////////////////// */

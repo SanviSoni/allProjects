@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  cursor: pointer;
+}
+
+/* video {
+  height: 100%;
+  width: 100%;
+
+  object-fit: cover;
+  background-position: center;
+  position: absolute;
+  z-index: -1;
+  background-repeat: no-repeat;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0.103), rgba(0, 0, 0, 0.26), black);
+  display: flex;
+  align-items: end;
+  justify-content: start;
+  padding: 10%;
+}
+
+.container > div {
+  width: 50%; */
+/* }
+
+h1 {
+  font-size: 60px;
+}
+
+p {
+  font-size: 16px;
+  margin: 10px;
+}
+
+span {
+  display: flex;
+  align-items: center;
+}
+
+button {
+  padding: 20px 30px;
+  background-color: rgba(171, 84, 84, 0.906);
+  color: white;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.icon-heart {
+  color: red;
+  font-size: 60px;
+  margin-left: 20px;
+  cursor: pointer;
+} */
+/* .container {
+  height: 100%;
+  width: 100%;
+  /* background-color: powderblue; */
+/* display: flex; */
+/* justify-content: center; */
+/* align-items: center; */
+/* background-color: black; */
+/* justify-content: space-evenly; */
+/* } */
+
+/* .container > button {
+  padding: 3vmax 10vmax;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  font-size: 3vmax;
+} */
+
+/* .page-two {
+  height: 50%;
+  width: 30%;
+  background-color: plum;
+  border-radius: 50%;
+} */
+
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 900;
+  font-size: 150px;
+  color: thistle;
+  text-transform: uppercase;
+}
+
+.pointer {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  background-color: thistle;
+  border-radius: 50%;
+  mix-blend-mode: difference;
+  transition: 0.25s linear;
+  box-shadow: 2px 2px 25px 2px plum;
+}

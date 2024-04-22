@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body { overflow: hidden;}
+
+
+
+.main-box {
+  height: 100%;
+  width: 100%;
+  background-image: url(https://images.unsplash.com/photo-1517483000871-1dbf64a6e1c6?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: center;
+  background-size: cover;
+  
+}
+
+.nav-bar {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  /* background-color: rebeccapurple; */
+}
+
+.nav-bar > h1 {
+  text-transform: uppercase;
+}
+
+.full {
+  height: 100%;
+  width: 40%;
+  background-color: rgba(255, 255, 255, 0.256);
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-top: 1%;
+  padding-left: 4%;
+  transform: translate(40vw);
+  backdrop-filter: blur(20px);
+
+}
+
+
+.nav-bar > i { cursor: pointer;}
+
+.cross {
+  /* position: absolute; */
+  /* top: 5%; */
+  font-size: 30px;
+  margin-top: 10vh;
+  margin-left: 60vh;
+  cursor: pointer;
+  /* background-color: plum;; */
+}
+
+.full > h4 {
+  margin-top: 40px;
+  padding: 0 30px;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 100;
+  border-bottom: 2px solid transparent;
+  /* background-color: violet; */
+}
+
+.full > h4:hover {
+  border-bottom: 2px solid black;
+  width: 60%;
+}

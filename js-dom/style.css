@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* .one {
+  height: 400px;
+  width: 300px;
+  background-image: url(https://images.unsplash.com/photo-1703008264180-fd866b5da732?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.one > i {
+  font-size: 70px;
+  color: red;
+transition: transfprm 0.25s ease;
+transform: scale(0);
+opacity: 0;
+}
+
+.o2 {
+  background-image: url(https://images.unsplash.com/photo-1705179910388-2e27559c3f39?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
+
+/* .container {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+.list {
+  width: 100%;
+  border-bottom: 2px solid plum;
+}
+
+.list > img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  transition: transform( .25s linear);
+  opacity: 0;
+
+}
+
+.list > h1 { color: purple;
+font-size: 150px;} */
+
+/* FORM ELEMENT */
+
+/* parctice qurestion */

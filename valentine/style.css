@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Comforter&family=Dancing+Script:wght@400;500;600;700&family=Englebert&family=Redressed&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Englebert", cursive;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#ff6666, #ff8989, #fcaeae, #ffeadd);
+  color: #fae6e8;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  text-align: center;
+  padding: 5%;
+  font-family: "Satisfy", cursive;
+}
+
+.img1 {
+  width: 100px;
+  animation: 2s frame linear infinite;
+}
+
+@keyframes frame {
+  0% {
+    transform: rotate(-10deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(-10deg);
+  }
+}
+
+main h1 {
+  font-size: 35px;
+  font-weight: 100;
+  margin-top: 2%;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.btns {
+  display: flex;
+  gap: 10px;
+  margin-top: 2%;
+  position: relative;
+}
+
+button {
+  font-family: "Englebert", cursive;
+  padding: 5px 20px;
+  color: #134355;
+  background-color: #fae6e8;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  transition: 0.5s ease all;
+  font-size: 20px;
+}
+
+.btn1 {
+  right: 10px;
+  animation: 2s scale linear infinite;
+}
+
+.img2 {
+  width: 150px;
+  height: 150px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(https://i.pinimg.com/originals/91/8e/4a/918e4a9a2f47418cba2f16f4ef7282be.gif);
+}
+
+.bgimg {
+  width: 60%;
+  height: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  /* background-image: url(./cat-cats.gif); */
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* opacity: 0; */
+  z-index: -1;
+}
